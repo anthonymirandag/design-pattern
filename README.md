@@ -1,2 +1,2 @@
 # design-pattern
-Diseno de patrones en javascript
+Diseno de patrones en typescript
