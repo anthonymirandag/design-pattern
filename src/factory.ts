@@ -10,12 +10,14 @@ class CreepMele implements Entity {
   life : number = 250 ;
   strength : number = 20;
   attack : number = 30;
+  
   constructor(){
-
   }
+
   move(){
     console.log('Move CreepMele')
   }
+
   strike(){
     console.log('Atack CreepMele')
   }
@@ -29,12 +31,15 @@ class CreepRange implements Entity {
   constructor(){
 
   }
+ 
   move(){
     console.log('Move CreepRange')
   }
+ 
   strike(){
     console.log('Atack CreepRange')
   }
+
 }
 
 
@@ -42,12 +47,15 @@ class CreepAncestral implements Entity {
   life : number = 500 ;
   strength : number = 30;
   attack : number = 100;
+  
   constructor(){
 
   }
+  
   move(){
     console.log('Move CreepAncestral')
   }
+  
   strike(){
     console.log('Atack CreepAncestral')
   }
